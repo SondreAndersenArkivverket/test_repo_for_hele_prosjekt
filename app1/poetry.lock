@@ -1,0 +1,22 @@
+[[package]]
+name = "lib1"
+version = "0.0.1"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.10"
+develop = false
+
+[package.source]
+type = "git"
+url = "git@github.com:SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git"
+reference = "HEAD"
+resolved_reference = "4e96bff3e90540de0e1bbb1373b50b2cde93b023"
+subdirectory = "lib1"
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "1079976540b7d54763ce7e00af2f55ae316260f84a370cdcc32887022de29dbb"
+
+[metadata.files]
+lib1 = []
