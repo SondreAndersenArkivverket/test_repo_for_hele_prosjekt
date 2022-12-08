@@ -18,8 +18,6 @@ running `make version v=<version number>`
 
 
 
-
-
 # Poetry
 
 Using this package with Poetry.
@@ -30,6 +28,12 @@ Using this package with Poetry.
 [tool.poetry.dependencies]
 python = "^3.10"
 lib1 = {git = "git@github.com:SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git", subdirectory = "lib1"}
+```
+
+## Install specific version
+
+```
+lib1 = { git = "git@github.com:SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git", subdirectory = "lib1", rev = "v0.0.1" }
 ```
 
 **Can we use `Poetry add`?**
