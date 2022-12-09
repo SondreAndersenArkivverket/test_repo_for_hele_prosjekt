@@ -5,6 +5,8 @@
 
 We store the code for this package in a subdirectory of our project repository.
 
+All functions or classes that is to be a part of the package must be imported in the `__init__.py` file.
+
 When we want to deploy a new version of the package we need to commit the changes to the `main` branch in Github, and then
 run the code in [`Makefile`](Makefile) in order to change the version number and tag the new commit with a new version number. This can be done by
 running `make version v=<version number>`.
