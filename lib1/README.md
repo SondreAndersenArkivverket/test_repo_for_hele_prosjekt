@@ -80,7 +80,9 @@ pip install -e git+https://github.com/SondreAndersenArkivverket/test_repo_for_he
 
 Obs. `-e` means editable, so that means it always get the newest version from Github! (Might not be what we want?)
 
+# Versions
 
+We should probably use something like: https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning
 
 
 # Sources
