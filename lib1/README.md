@@ -61,7 +61,10 @@ Run: `poetry update`
 - Tried: `pip install -e git+ssh://git@github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1&subdirectory=lib1`
 - Tried: `pip install git+ssh://git@github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1&subdirectory=lib1`
 - Tried: `pip install "git+https://github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1&subdirectory=lib1"`
-- I have not been able to make this work yet...
+- Worked: `pip install "git+https://github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1&#subdirectory=lib1"`
+- Testing now: `pip install git+ssh://git@github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1#subdirectory=lib1`
+
+
 
 https://github.com/python-poetry/poetry/issues/755#issuecomment-451000247
 
