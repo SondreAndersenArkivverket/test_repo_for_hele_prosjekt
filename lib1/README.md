@@ -41,7 +41,7 @@ Run: `poetry update`
 
 # How to PIP install this
 
-*Not tested*
+*Have not been able to make this work yet.*
 
 *Notes:*
 - Tried: `pip install -e git+ssh://git@github.com/SondreAndersenArkivverket/test_repo_for_hele_prosjekt.git@main#egg=lib1&subdirectory=lib1`
