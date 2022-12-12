@@ -1,4 +1,4 @@
-from lib1 import archive_something, function_only_in_version_gt_0_0_4
+from lib1 import archive_something, function_only_in_version_gt_0_0_4, new_function
 
 
 if __name__ == "__main__":
@@ -6,3 +6,4 @@ if __name__ == "__main__":
     print("Bruker funksjon fra lib1 pakke via Github.")
     archive_something()
     function_only_in_version_gt_0_0_4()
+    new_function()
