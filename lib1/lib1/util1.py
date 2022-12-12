@@ -6,3 +6,6 @@ def archive_something_more():
 
 def function_only_in_version_gt_0_0_4():
     print("function_only_in_version_gt_0_0_4")
+
+def new_function():
+    print("New function")
