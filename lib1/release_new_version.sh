@@ -9,7 +9,7 @@ if [[ ! $version ]]; then
     exit 1
 fi
 
-# Set version number in poetry 
+# Set version number in poetry
 poetry version $version
 
 git add pyproject.toml
@@ -19,4 +19,4 @@ git push
 git push --tags
 
 # Print the new version number
-poetry version
+poetry version  
